@@ -4,9 +4,9 @@ import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 
 console.log('Script started successfully');
 
-let currentPopup: any = undefined;
-let lobster1Popup: any = undefined;
-let lobster2Popup: any = undefined;
+var currentPopup = undefined;
+var lobster1Popup = undefined;
+var lobster2Popup = undefined;
 
 // Waiting for the API to be ready
 WA.onInit().then(() => {
